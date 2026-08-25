@@ -7,7 +7,7 @@ sources:
     tables:
       - name: FIRE_AND_GENERAL
       - name: INVESTMENT_COMMISSIONS_1
-      - name: INVESTMENT_COMMISSIONS_2
+
       - name: LFG_INSURANCE
       - name: MORTGAGE_COMMISSIONS
 
