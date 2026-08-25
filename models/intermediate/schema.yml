@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: int_fire_and_general
+    description: Pass-through intermediate view of the raw fire and general insurance extract.
+
+  - name: int_investment_commissions_1
+    description: Pass-through intermediate view of the first raw investment commissions extract.
+
+  - name: int_investment_commissions_2
+    description: Pass-through intermediate view of the second raw investment commissions extract.
+
+  - name: int_lfg_insurance
+    description: Pass-through intermediate view of the raw LFG insurance commissions extract.
+
+  - name: int_mortgage_commissions
+    description: Pass-through intermediate view of the raw mortgage commissions extract.
