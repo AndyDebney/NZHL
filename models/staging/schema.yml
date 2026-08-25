@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: stg_fire_and_general
+    description: Standardized fire and general insurance extract with normalized ingestion metadata and column names.
+
+  - name: stg_investment_commissions_1
+    description: Standardized first investment commissions extract with normalized ingestion metadata and column names.
+
+  - name: stg_investment_commissions_2
+    description: Standardized second investment commissions extract with normalized ingestion metadata and column names.
+
+  - name: stg_lfg_insurance
+    description: Standardized LFG insurance commissions extract with normalized ingestion metadata.
+
+  - name: stg_mortgage_commissions
+    description: Standardized mortgage commissions extract with normalized ingestion metadata and column names.
