@@ -12,3 +12,7 @@ models:
 
   - name: stg_mortgage_commissions
     description: Standardized mortgage commissions extract with normalized ingestion metadata and column names.
+    columns:
+      - name: loan_amount2
+        description: Numeric loan amount derived from loan_amount after removing a leading asterisk and thousands separators. The original loan_amount value is retained for auditability.
+

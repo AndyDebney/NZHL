@@ -11,5 +11,10 @@ select * rename (
     _fivetran_synced as fivetran_synced_at,
     lfg_fee_incl_gst_ as lfg_fee_incl_gst,
     lfg_ as lfg
-)
+),
+    try_cast(
+        replace(regexp_replace(to_varchar(loan_amount), '^[*]', ''), ',', '')
+        as number(18, 2)
+    ) as loan_amount2
 from source
+
