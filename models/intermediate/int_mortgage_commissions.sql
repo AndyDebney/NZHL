@@ -1,7 +1,8 @@
-with source as (
+with staging as (
     select *
-    from {{ source('raw', 'MORTGAGE_COMMISSIONS') }}
+    from {{ ref('stg_mortgage_commissions') }}
 )
 
 select *
-from source
+from staging
+

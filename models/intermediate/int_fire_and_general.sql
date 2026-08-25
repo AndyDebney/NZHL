@@ -1,7 +1,8 @@
-with source as (
+with staging as (
     select *
-    from {{ source('raw', 'FIRE_AND_GENERAL') }}
+    from {{ ref('stg_fire_and_general') }}
 )
 
 select *
-from source
+from staging
+
